@@ -1,3 +1,5 @@
+/*! data-init 0.1.0 | Copyright (c) 2014 Gias Kay Lee | MIT License */
+
 'use strict';
 
 angular.module('data-init', []).
