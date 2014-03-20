@@ -1,0 +1,13 @@
+{
+  "name": "ngAppInit",
+  "version": "0.0.0",
+  "private": true,
+  "author": "Gias Kay Lee",
+  "licenses": "MIT",
+  "devDependencies": {
+    "gulp": "~3.5.6",
+    "gulp-util": "~2.2.14",
+    "gulp-uglify": "~0.2.1",
+    "gulp-ngmin": "~0.1.2"
+  }
+}
