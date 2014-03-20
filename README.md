@@ -1,2 +1,2 @@
-ngAppInit
+data-init
 =========

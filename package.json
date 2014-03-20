@@ -1,0 +1,14 @@
+{
+  "name": "data-init",
+  "version": "0.1.0",
+  "private": true,
+  "author": "Gias Kay Lee",
+  "licenses": "MIT",
+  "devDependencies": {
+    "gulp": "~3.5.6",
+    "gulp-util": "~2.2.14",
+    "gulp-rename": "~1.2.0",
+    "gulp-ngmin": "~0.1.2",
+    "gulp-uglify": "~0.2.1"
+  }
+}
