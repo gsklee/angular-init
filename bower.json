@@ -1,12 +1,13 @@
 {
-  "name": "ngAppInit",
-  "main": "./ngAppInit.js",
+  "name": "data-init",
+  "main": "./data-init.js",
   "keywords": [
     "angular",
     "app",
     "init",
     "initial",
     "server",
+    "data",
     "variable",
     "bootstrap"
   ],
