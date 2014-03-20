@@ -1,0 +1,17 @@
+{
+  "name": "ngAppInit",
+  "main": "./ngAppInit.js",
+  "keywords": [
+    "angular",
+    "app",
+    "init",
+    "initial",
+    "server",
+    "variable",
+    "bootstrap"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0"
+  },
+  "devDependencies": {}
+}
