@@ -1,25 +1,11 @@
 'use strict';
 
-angular.module('ngAppInit', []).
+angular.module('data-init', []).
 
-provider('$init', function(
-){
-  this.$get = function() {
-    return {};
-  };
-}).
-
-directive('ngAppInit', function(
-  $window,
-  $init
-){
-  return {
-    compile: function() {
-      return {
-        pre: function(scope, element, attrs) {
-          angular.extend($init, $window.JSON.parse(attrs.ngAppInit));
-        }
-      };
-    }
+provider('$init', function() {
+  this.$get = function(
+    $window
+  ){
+    return $window.JSON.parse(document.querySelector('[ng-app]').dataset.init);
   };
 });
