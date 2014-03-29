@@ -1,4 +1,4 @@
-/*! data-init 0.1.0 | Copyright (c) 2014 Gias Kay Lee | MIT License */
+/*! data-init 0.1.1 | Copyright (c) 2014 Gias Kay Lee | MIT License */
 
 'use strict';
 
