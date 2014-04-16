@@ -5,8 +5,8 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify');
 
 gulp.task('scripts', function() {
-  return gulp.src('data-init.js').
-              pipe(rename('data-init.min.js')).
+  return gulp.src('angular-init.js').
+              pipe(rename('angular-init.min.js')).
               pipe(ngmin()).
               pipe(uglify({
                 preserveComments: 'some',

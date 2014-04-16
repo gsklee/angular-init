@@ -1,6 +1,6 @@
 {
-  "name": "data-init",
-  "main": "./data-init.js",
+  "name": "angular-init",
+  "main": "./angular-init.js",
   "keywords": [
     "angular",
     "app",
