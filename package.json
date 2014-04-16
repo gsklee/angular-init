@@ -1,14 +1,15 @@
 {
-  "name": "data-init",
-  "version": "0.1.1",
+  "name": "angular-init",
+  "version": "0.1.2",
   "private": true,
   "author": "Gias Kay Lee",
   "licenses": "MIT",
   "devDependencies": {
-    "gulp": "~3.5.6",
+    "gulp": "~3.6.0",
     "gulp-util": "~2.2.14",
+    "gulp-load-plugins": "~0.5.0",
     "gulp-rename": "~1.2.0",
-    "gulp-ngmin": "~0.1.2",
+    "gulp-ngmin": "~0.2.0",
     "gulp-uglify": "~0.2.1"
   }
 }

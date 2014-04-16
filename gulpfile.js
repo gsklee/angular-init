@@ -1,14 +1,11 @@
 var gulp = require('gulp'),
-    gutil = require('gulp-util'),
-    rename = require('gulp-rename'),
-    ngmin = require('gulp-ngmin'),
-    uglify = require('gulp-uglify');
+    g = require('gulp-load-plugins')();
 
 gulp.task('scripts', function() {
-  return gulp.src('data-init.js').
-              pipe(rename('data-init.min.js')).
-              pipe(ngmin()).
-              pipe(uglify({
+  return gulp.src('angular-init.js').
+              pipe(g.rename('angular-init.min.js')).
+              pipe(g.ngmin()).
+              pipe(g.uglify({
                 preserveComments: 'some',
                 outSourceMap: true
               })).

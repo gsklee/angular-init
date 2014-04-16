@@ -1,8 +1,8 @@
-/*! data-init 0.1.1 | Copyright (c) 2014 Gias Kay Lee | MIT License */
+/*! Angular Init 0.1.2 | Copyright (c) 2014 Gias Kay Lee | MIT License */
 
 'use strict';
 
-angular.module('data-init', []).
+angular.module('angularInit', []).
 
 provider('$init', function() {
   this.transform = function(input) {return input};
