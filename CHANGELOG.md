@@ -1,3 +1,8 @@
+### 0.1.3 / 2014.04.17
+* Make the factory always return an object.
+
+---
+
 ### 0.1.2 / 2014.04.16
 * Rename the library.
 
