@@ -10,6 +10,6 @@ provider('$init', function() {
   this.$get = function(
     $window
   ){
-    return this.transform($window.JSON.parse(document.querySelector('[ng-app]').dataset.init));
+    return this.transform($window.JSON.parse(document.querySelector('[ng-app]').dataset.init) || {});
   };
 });
