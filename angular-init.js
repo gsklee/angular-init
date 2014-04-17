@@ -1,4 +1,4 @@
-/*! Angular Init 0.1.2 | Copyright (c) 2014 Gias Kay Lee | MIT License */
+/*! Angular Init 0.1.3 | Copyright (c) 2014 Gias Kay Lee | MIT License */
 
 'use strict';
 
@@ -10,6 +10,6 @@ provider('$init', function() {
   this.$get = function(
     $window
   ){
-    return this.transform($window.JSON.parse(document.querySelector('[ng-app]').dataset.init));
+    return this.transform($window.JSON.parse(document.querySelector('[ng-app]').dataset.init) || {});
   };
 });
